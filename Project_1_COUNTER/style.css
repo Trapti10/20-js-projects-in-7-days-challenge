@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    align-items: center;
+   margin-top: 175px;
+   margin-left: 31%;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border: none;
+    padding: 30px;
+    width: 500px;
+    height: 350px;
+    background:rgba(226, 226, 226, 0.879);
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+button:hover{
+    border-radius: 3px;
+    border-color: blue;
+}
+
+h1{
+    color: rgb(23, 21, 95);
+    font-size: 60px;
+    font-weight: 900;
+}
+#counterValue{
+    color: rgb(26, 141, 70);
+    font-size: 60px;
+    font-weight: 900;
+
+}

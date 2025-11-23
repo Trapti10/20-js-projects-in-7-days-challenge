@@ -1,0 +1,149 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+ align-items: center;
+margin-top: 85px;
+ margin-left: 31%;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.box{
+    border: none;
+    background: rgb(225, 225, 225);
+    padding: 40px 45px;
+    width: 490px;
+    text-align: center;
+}
+
+.box span{
+    font-size: 40px;
+    position: relative;
+}
+span::after{
+  content: '';
+  height: 4px;
+  width: 90px;
+  background: rgb(118, 177, 240);
+  position: absolute;
+  border-radius: 3px;
+  top: 50px;
+  left:75px;
+  display: block;
+}
+
+.Hero-section{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   margin-top: 35px;
+   border: none;
+   background: hsl(0, 10%, 96%);
+   padding: 30px;
+}
+.About-Section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.About-Section img{
+    height: 110px;
+    width: 110px;
+    border: none;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    right:6px ;
+}
+.About-Section .circle{
+    
+    height: 110px;
+    width: 110px;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 233px;
+    background: rgb(118, 177, 240);
+
+}
+
+.ion-icons{
+    display: flex;
+    gap: 5px;
+}
+.left-icon img,
+.right-icon img {
+    width: 30px;
+    height: 30px;
+    filter: invert(50%) sepia(20%) saturate(7400%) hue-rotate(204deg);
+}
+
+button{
+    border: 1px solid  rgb(118, 177, 240);
+    border-radius: 5px;
+    padding: 3px 5px;
+    color:  rgb(118, 177, 240);
+}
+@media screen and (max-width: 800px) {
+    body{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .box{
+        width: 95%;
+        padding: 20px;
+    }
+
+    .box span{
+        font-size: 2.2rem;
+    }
+
+    span::after{
+        width: 40px;
+        top: 2.5rem;
+    }
+
+    
+    .About-Section .circle{
+        height: 110px;
+        width: 110px;
+        top: 140px;
+    }
+
+    .Hero-section{
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .box span{
+        font-size: 1.8rem;
+    }
+
+    span::after{
+        width: 30px;
+        top: 2rem;
+    }
+
+    .About-Section .circle{
+        height: 110px;
+        width: 110px;
+        top: 130px;
+    }
+
+    .ion-icons{
+        gap: 8px;
+    }
+
+    button{
+        padding: 4px 8px;
+    }
+}
+
