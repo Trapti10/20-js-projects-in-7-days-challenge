@@ -1,1 +1,0 @@
-const openodal = document.querySelector(".Open")
