@@ -1,0 +1,40 @@
+.section-center{
+    width: fit-content;
+    margin-left: 10px;
+    place-items: center;
+    max-width: 300px;
+}
+
+.gift-img img{
+     margin-top: 20px;
+    width: 100%;
+    min-width: 300px;
+}
+
+.gift-info{
+    max-width: 300px;
+}
+
+.gift-info h3{
+        color: rgb(30, 129, 191);  
+        
+}
+.gift-info h4{
+  letter-spacing: 1px;
+}
+.gift-info p{
+  color: rgb(179, 178, 178);
+}
+
+.deadline{
+    display: flex;
+    justify-content: space-around;
+}
+.deadline-formate{
+  height: 45px;
+  width: 45px;
+  background: #1a5c8b;
+  color: white;
+  padding: 1px 0;
+  text-align: center;
+}
