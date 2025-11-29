@@ -1,0 +1,117 @@
+.card {
+  width: 350px;
+  padding: 20px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  font-family: Arial;
+}
+
+#itemForm {
+  display: flex;
+  gap: -1px;
+}
+
+#itemForm input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background: #dde7f2;
+}
+
+#itemForm button {
+  padding: 8px 15px;
+  background: #60a6f1;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.item-buttons button {
+  margin-left: 5px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.grocery-list{
+  background: #ffffff75;
+  padding: 0 10px ;
+  border-radius: 10px;
+  margin-top: 40px;
+ 
+}
+
+.edit-btn {
+  border: none;
+  background: none;
+   height: 12px;
+ width: 12px;
+}
+
+.delete-btn {
+  border: none;
+  background: none;
+   height: 12px;
+ width: 12px;
+}
+
+/* CLEAR ALL BUTTON */
+.clear-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: #444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  background: #222;
+}
+.grocery-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+  background: rgba(233, 232, 232, 0.669);
+  border-radius: 6px;
+  padding: 0 10px;
+}
+
+
+.alert{
+  margin-bottom: 1rem;
+  height: 1.25rem;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  font-size: 0.7rem;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.alert-danger{
+  color: rgb(105, 11, 11);
+  background: #e9bebe;
+}
+.alert-success{
+  color: rgb(8, 82, 43);
+  background: #b4f5df;
+}
+
+.grocery-list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 10px;
+}
+
